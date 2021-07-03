@@ -6,22 +6,48 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>NUTTAWAN's Resume</title>
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <style type="text/css">
+
+    @font-face {
+      font-family: subtext;
+      src: url('font/Young.ttf')
+    }
+    .font1 {
+      font-family: subtext;
+      font-size: medium;
+    }
+
+    .button {
+      margin: x-3px;
+      font-size: medium;
+    }
+    .button1:hover{
+      background-color: none;
+      color: #47464F;
+    }
+    body {
+      font-family: subtext;
+      font-size: medium;
+      background-color: #1F1E27;
+      color: #1F1E27;
+    }
+  </style>
 </head>
-<body class="bg-black max-w-screen-lg mx-auto">
+<body class="max-w-screen-lg mx-auto">
 
   <div class="py-14">
     <div class="text-center text-white">
-      <a href="index.html"><buttom class="mx-3 text-sm ring-1 ring-gray-300 hover:bg-gray-400 rounded-full px-7">HOME</buttom></a>
-      <a href="experience.html"><buttom class="mx-3 text-sm ring-1 ring-gray-300 hover:bg-gray-400 rounded-full px-3">EXPREIENCE</buttom></a>
-      <a href="experience.html"><buttom class="mx-3 text-sm ring-1 ring-gray-300 hover:bg-gray-400 rounded-full px-5">CONTECT</buttom></a>
+      <a href="index.html" class="button button1 px-7">HOME</a>
+      <a href="experience.html" class="button button1 px-3">EXPREIENCE</a>
+      <a href="contect.html" class="button button1 px-5">CONTECT</a>
     </div>
   </div>
 
-  <div class="flex p-14">
-    <img class="rounded-md" src="/photo/1.jpg" width="200" height="200">
-    <div class="p-4">
-      <p class="text-white">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit perferendis hic minima corrupti ducimus ratione dolorum temporibus nulla distinctio repellat repudiandae veniam, necessitatibus eos ex autem blanditiis in omnis! Incidunt.
+  <div class="flex p-14 bg-white rounded-xl shadow-9">
+    <img class="rounded-xl" src="/photo/me.jpeg" width="250" height="250">
+    <div class="pb-4 pl-10">
+      <p>
+      My  name  is  Nuttawan  Reabreang .  I'm  nineteen  years  old . I'm  a  student  at  Chiangmai  University .  I  study  Computer  Engineering .  I'm  in  a  second  years  student .  In  the  future ,  I  wanna  be  a  better  programmer .
       </p>
     </div>
   </div>
